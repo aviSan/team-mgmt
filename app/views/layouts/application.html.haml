@@ -1,0 +1,13 @@
+!!!
+%html
+%head
+  %title Team Management
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  = csrf_meta_tags
+%body
+  #main.mrgn1
+  .container
+    .row
+      .col-md-12
+        = yield
